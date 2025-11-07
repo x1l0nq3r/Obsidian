@@ -44,10 +44,10 @@ do
     ThemeManager.Folder = "ObsidianLibSettings"
     -- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
 
-  ThemeManager.Library = nil
+ThemeManager.Library = nil
 ThemeManager.AppliedToTab = false
 ThemeManager.BuiltInThemes = {
-    ["Default"] =         { FontColor = "ffffff", MainColor = "191919", AccentColor = "7d55ff", BackgroundColor = "0f0f0f", OutlineColor = "282828" },
+    ["Default"] =         { FontColor = "e6e6fa", MainColor = "1c1430", AccentColor = "9d7cd8", BackgroundColor = "13101f", OutlineColor = "2e2547" },
     ["BBot"] =            { FontColor = "ffffff", MainColor = "1e1e1e", AccentColor = "7e48a3", BackgroundColor = "232323", OutlineColor = "141414" },
     ["Fatality"] =        { FontColor = "ffffff", MainColor = "1e1842", AccentColor = "c50754", BackgroundColor = "191335", OutlineColor = "3c355d" },
     ["Jester"] =          { FontColor = "ffffff", MainColor = "242424", AccentColor = "db4467", BackgroundColor = "1c1c1c", OutlineColor = "373737" },
